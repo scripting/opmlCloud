@@ -1,8 +1,8 @@
 {
-	"watchFolder": "/Users/davewiner/publicFolder/",
-	"pathFileToWatch": "/Users/davewiner/publicFolder/drummer/dwPublicNotes.opml",
-	"urlInstantOutline": "http://scripting.com/notes.opml",
-	"s3PathInstantOutline": "/scripting.com/notes.opml",
+	"watchFolder": "/Users/bull/outlines/",
+	"pathFileToWatch": "/Users/bull/outlines/myPublicNotes.opml",
+	"urlInstantOutline": "http://bullman.com/notes.opml",
+	"s3PathInstantOutline": "/bullman.com/notes.opml",
 	"s3OutlineType": "text/xml",
 	"s3DefaultAcl": "public-read",
 	"urlUpdateSocket": "wss://opmlcloud.scripting.com/",
