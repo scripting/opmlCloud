@@ -1,0 +1,10 @@
+{
+	"watchFolder": "/Users/davewiner/publicFolder/",
+	"pathFileToWatch": "/Users/davewiner/publicFolder/drummer/dwPublicNotes.opml",
+	"urlInstantOutline": "http://scripting.com/notes.opml",
+	"s3PathInstantOutline": "/scripting.com/notes.opml",
+	"s3OutlineType": "text/xml",
+	"s3DefaultAcl": "public-read",
+	"urlUpdateSocket": "wss://opmlcloud.scripting.com/",
+	"urlForPing": "http://opmlcloud.scripting.com/outlineupdated?url="
+	}

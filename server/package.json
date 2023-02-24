@@ -1,0 +1,16 @@
+{
+	"name": "opmlcloud",
+	"description": "A server that emulates Drummer's instant outlining protocol. ",
+	"author": "Dave Winer <dave@scripting.com>",
+	"main": "opmlcloud.js",
+	"license": "MIT",
+	"version": "0.4.0",
+	"dependencies" : {
+		"nodejs-websocket": "*",
+		"xml2js": "*",
+		"request": "*",
+		"daveutils": "*",
+		"opml": "*",
+		"davehttp": "*"
+		} 
+	}

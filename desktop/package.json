@@ -1,0 +1,13 @@
+{
+	"name": "iobridge",
+	"description": "Desktop software that emulates Drummer's instant outlining protocol for one outline, exampleware for more complicated applications. ",
+	"version": "0.4.0",
+	"main": "iobridge.js",
+	"dependencies" : {
+		"chokidar": "*",
+		"opml": "*",
+		"request": "*",
+		"daveutils": "*",
+		"daves3": "*"
+		}
+	}
