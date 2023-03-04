@@ -246,7 +246,6 @@ function startup () {
 					}
 				});
 			}
-		renewReadySubscriptions ();
 		}
 	readConfig (function () {
 		readStats (function () {
