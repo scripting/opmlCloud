@@ -67,12 +67,17 @@ function processDavesOutline (f, callback) {
 	const whenstart = new Date ();
 	fs.readFile (f, function (err, opmltext) {
 		if (err) {
-			callback (err);
+			console.log ("processDavesOutline: err.message == " + err.message + ", f == " + f);  //5/13/23 by DW
+			if (callback !== undefined) { //5/13/23 by DW
+				callback (err);
+				}
 			}
 		else {
 			opml.parse (opmltext, function (err, theOutline) { 
 				if (err) {
-					callback (err);
+					if (callback !== undefined) { //5/13/23 by DW
+						callback (err);
+						}
 					}
 				else {
 					var head = theOutline.opml.head;

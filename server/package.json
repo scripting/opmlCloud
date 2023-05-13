@@ -4,7 +4,7 @@
 	"author": "Dave Winer <dave@scripting.com>",
 	"main": "opmlcloud.js",
 	"license": "MIT",
-	"version": "0.4.0",
+	"version": "0.4.1",
 	"dependencies" : {
 		"nodejs-websocket": "*",
 		"xml2js": "*",

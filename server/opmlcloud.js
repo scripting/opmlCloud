@@ -1,4 +1,4 @@
-var myProductName = "opmlcloud"; myVersion = "0.4.0";    
+var myProductName = "opmlcloud"; myVersion = "0.4.1";    
 
 const fs = require ("fs");
 const utils = require ("daveutils"); 
@@ -68,15 +68,22 @@ function watchThisOutline (urlToWatch, callback) {
 	var outlineRec = stats.outlines [urlToWatch];
 	opml.readOutline (urlToWatch, function (err, theOutline) {
 		if (err) {
-			callback (err);
+			if (callback !== undefined) {
+				callback (err);
+				}
 			return;
 			}
 		else {
 			try {
 				outlineRec.head = theOutline.opml.head;
+				if (callback !== undefined) {
+					callback (undefined, outlineRec);
+					}
 				}
 			catch (err) {
-				callback (err);
+				if (callback !== undefined) {
+					callback (err);
+					}
 				return;
 				}
 			}
